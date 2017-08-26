@@ -1,0 +1,403 @@
+/* CSS Document */
+html,body,div,span,h1,h2,h3,h4,h5,h6,
+p,a,font,img,b,u,i,ol,ul,li,fieldset,form {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body {
+font-size: 62.5%;
+font-family: tahoma, arial, sans-serif;
+line-height: 2em;
+background: #0e0e0e url(images/body_bg.jpg) no-repeat left top;
+}
+.clear
+{
+	clear:both;
+}
+ol,ul {list-style: none;} /*Bỏ đi mấy cái list style của ol và ul*/
+ 
+a {
+text-decoration: none; /*Bỏ hiệu ứng gạch chân*/
+}
+ 
+a img {
+border: none; /*Bỏ border img nếu dùng ảnh làm link*/
+}
+ 
+img {
+vertical-align: center;
+}
+ 
+:focus {
+outline:0;
+}
+.uppercase {
+text-transform: uppercase;
+}
+ 
+.bold {
+font-weight: bold;
+}
+
+@font-face {
+    font-family:Roboto-bold;
+    src:url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Roboto-thin;
+    src:url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family:Roboto-light;
+    src:url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:Roboto-regular;
+    src:url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Roboto-light-italic;
+    src:url(../fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family:Roboto-medium;
+    src:url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:Roboto-italic;
+    src:url(../fonts/Roboto-Italic.ttf);
+}
+.bold
+{
+	font-family:Roboto-bold;
+}
+.light
+{
+	font-family:Roboto-light;
+}
+.thin
+{
+	font-family:Roboto-thin;
+}
+.medium
+{
+	font-family:Roboto-medium;
+}
+.regular
+{
+	font-family:Roboto-regular;
+}
+.light-italic
+{
+	font-family:Roboto-light-italic;
+}
+.canh-giua
+{
+	
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dau_trang
+{
+	background:#691b1d;
+}
+.dau_trang_1
+{
+	padding:25px 0;
+	background:#691b1d;
+	
+}
+.logo
+{
+	
+	width:309px;
+}
+.hotline
+{
+	width:309px;
+	
+}
+
+
+.menu
+{
+	
+	font-size:18px;
+}
+.menu li a:hover
+{
+	color:yellow;
+}
+.thong-tin{
+	background:#691b1d;
+	padding:30px 70px;
+	overflow:hidden;
+}
+.thong-tin p
+{
+	
+	font-size:25px;
+	color:#fff568;
+	margin-bottom:0px;
+	
+	
+}
+.thong-tin hr
+{
+	
+	float:left;
+	width:100px;
+	height:2px;
+	color:#fff568;
+	background-color:#fff568;
+}
+.chi_tiet
+{
+	margin-top:50px;
+	width:100%;
+}
+.chi_tiet h5{
+	font-size:20px;
+	padding:10px 15px;
+	background-color:#e1e1e1;
+	color:#691b1d;
+	margin:0;
+}
+.chi_tiet p{
+	
+	padding:10px 15px;
+	border-bottom:1px solid #691b1d;
+	background-color:#FFF;
+	color:#691b1d;
+	font-size:18px;
+}
+.chi_nhanh
+{
+	margin:50px auto;
+}
+.thong_tin_san_xuat
+{
+	padding:50px 50px;
+	overflow:hidden;
+}
+.thong_tin_san_xuat h1
+{
+	color:#691b1d;
+}
+.thong_tin_san_xuat p
+{
+	color:#691b1d;
+	font-size:18px;
+	padding:0px;
+	margin:0;
+	text-align:center;
+}
+.cam_nhan
+{
+	padding:30px 150px;
+	background-color:#691b1d;
+}
+.cam_nhan h1 
+{
+	color:#fff568;
+}
+.cam_nhan p
+{
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+}
+
+.cau_hoi
+{
+	background-color:#ebebeb;
+	padding:50px 50px 100px 50px;
+	overflow:hidden;
+}
+.cau_hoi .ben_trai
+{
+	border-radius:5%;;
+	background-color:#fff;
+	position:relative;
+	padding:60px 25px;
+	min-height:360px;
+	float:left;
+	width:47%;
+	
+	
+	
+	
+	
+}
+.cau_hoi .ben_phai
+{
+	border-radius:10px;
+	background-color:#fff;
+	position:relative;
+	padding:60px 25px;
+	min-height:360px;
+	float:right;
+	width:47%;
+	
+	
+	
+	
+	
+}
+
+.ben_trai h4
+{
+	color:#691b1d;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.ben_trai p
+{
+	font-size:16px;
+	color:#959595;
+	margin-bottom:50px;
+}
+.ben_trai img{
+	position:absolute;
+	bottom:-15px;
+	right:70px;
+}
+.ben_phai h4
+{
+	color:#691b1d;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.ben_phai p
+{
+	font-size:16px;
+	color:#959595;
+	margin-bottom:50px;
+}
+.ben_phai img{
+	position:absolute;
+	bottom:-15px;
+	right:70px;
+}
+.member
+{
+	
+	position:absolute;
+	right:0px;
+	bottom:-80px;
+	
+}
+.member img
+{
+	width:80px;
+	height:80px;
+	float:right;
+	
+}
+.member .dac_diem
+{
+	text-align:right;
+	margin-right:170px;
+	
+}
+.dac_diem p
+{
+	margin:0px;
+	color:#691b1d;
+}
+
+.footer
+{
+	color:#fff;
+	overflow:hidden;
+	padding:20px 40px;
+	background-color:#691b1d;
+}
+.footer .cot h3
+{
+	background-color:#5c1315;
+	width:100%;
+	padding:10px;
+	margin-bottom:30px;
+}
+.footer .cot p{
+	margin:0;
+	padding:0;
+}
+.mang_xa_hoi a
+{
+	margin-top:30px;
+	padding:12px;
+	border:1px solid #fff;
+	border-radius:10px 0 10px 0;
+	margin-left:10px;
+	margin-left:10px;
+	color:#fff;
+}
+.mang_xa_hoi a:hover
+{
+	background-color:#fff;
+	color:#691b1d;
+}
+
+.cot-1 img
+{
+	float:left;
+	width:100px;
+	margin-right:10px;
+	margin-bottom:30px;
+	
+}
+.cot form input[type="text"]
+{
+	width:100%;
+	height:40px;
+	background:none;
+	margin:10px;
+	border:0.3px solid #CCC;
+	border-radius:5px;
+}
+.cot form textarea
+{
+	width:100%;
+	height:100px;
+	background:none;
+	margin:10px;
+	border:0.3px solid #CCC;
+	border-radius:5px;
+}
+.cot form input[type="submit"]
+{
+	background:none;
+	width:30%;
+	height:50px;
+	border:0.3px solid #CCC;
+	border-radius:5px;
+	float:right;
+}
+.copy_right p
+{
+	
+	background-color:#5c1315;
+	margin:0;
+	padding:30px;
+	font-size:18px;
+	color:#fff;
+}
+
+
+
+/* ==========================================================================   Responsive CSS Landscape Tablet   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+	
+} /* ==========================================================================   Responsive CSS Portrait Tablet   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {} /* ==========================================================================   Responsive CSS Landscape Mobile   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {} /* ==========================================================================   Responsive CSS Portrait Mobile   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700i');
+
+.circular-progress-bar {
+    position: relative;
+}
+
+.phan-tram, .progress-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.phan-tram {
+	font-size: 43px;
+	color:#00D2D2;
+
+}
+
+.progress-text {
+    transform: translate(-50%, 80%);
+    color: #76b852;
+    font-size: 35px;
+}
