@@ -392,8 +392,152 @@ font-weight: bold;
 	color:#fff;
 }
 
+.logo_kien_thuc
+{
+	background-color:#691b1d;
+	padding:20px 0;
+}
+.menu_kien_thuc
+{
+	overflow:hidden;
+	background-color:#872123;
+}
+.menu_kien_thuc ul
+{
+	height:100%;
+	margin:0;
+}
+.menu_kien_thuc li
+{
+	float:left;
+	display:block;
+	padding:20px;
+	border-right:1px solid rgba(255, 255, 255, 0.14);
+}
+.menu_kien_thuc a{
+	color:#fff;
+	font-size:18px;
+	
+}
+.menu_kien_thuc li:hover 
+{
+	background-color:#691b1d;
+}
+.menu_kien_thuc li:hover a
+{
+	text-decoration:none;
+	color:#fff568;
+}
 
-
+.content_kien_thuc
+{
+	overflow:hidden;
+	background-color:#691b1d;
+	padding:30px 20px;
+}
+.kien_thuc_trai
+{
+	float:left;
+	background-color:#fff;
+	
+	
+	
+}
+.cot_trai
+{
+	padding:15px;
+}
+.cot_trai h2
+{
+	margin:30px 0;
+	font-size:27px;
+}
+.cot_trai p
+{
+	margin-bottom:30px;
+	color:#999;
+}
+.cot_trai h4
+{
+	margin-bottom:30px;
+}
+.cot_trai hr
+{
+	height:1px;
+	border:1px solid #CCC;
+}
+.kien_thuc_phai
+{
+	float:right;
+}
+.khung_tim_kiem
+{
+	background-color:#fff;
+	padding:15px 10px;
+	
+}
+.khung_tim_kiem form
+{
+	position:relative;
+}
+.khung_tim_kiem form input[type="text"]
+{
+	
+	background-color:#f5f5f5;
+	padding:8px;
+	border:1px solid #ccc;
+	font-size:16px;
+	width:100%;
+	display:inline;
+}
+.khung_tim_kiem form input[type="submit"]
+{
+	position:absolute;
+	top:0;
+	right:0;
+	width:14%;
+	background-color:#872123;
+	text-align:center;
+	padding:13px;
+	border:none;
+	color:#fff;
+}
+.khung_bai_viet
+{
+	margin-top:50px;
+	overflow:hidden;
+	padding:15px 10px;
+	background-color:#fff;
+}
+.khung_bai_viet p
+{
+	font-size:16px;
+	color:#999;
+}
+.khung_bai_viet p a
+{
+	color:#999;
+}
+.khung_bai_viet p a:hover
+{
+	text-decoration:none;
+	color:#C03;
+}
+.footer_kien_thuc
+{
+	background-color:#872123;
+}
+.footer_kien_thuc hr
+{
+	opacity:0.4;
+}
+.footer_kien_thuc p
+{
+	color:#fff;
+	padding:30px;
+	font-size:16px;
+	opacity:0.9;
+}
 /* ==========================================================================   Responsive CSS Landscape Tablet   ========================================================================== */
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
 	
