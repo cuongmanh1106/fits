@@ -96,7 +96,7 @@ font-weight: bold;
 {
 	font-family:Roboto-light-italic;
 }
-.canh-giua
+.center
 {
 	
   display: flex;
@@ -104,11 +104,11 @@ font-weight: bold;
   align-items: center;
 }
 
-.dau_trang
+.page_head
 {
 	background:#691b1d;
 }
-.dau_trang_1
+.padge_head_1
 {
 	padding:25px 0;
 	background:#691b1d;
@@ -135,12 +135,12 @@ font-weight: bold;
 {
 	color:yellow;
 }
-.thong-tin{
+.imformation{
 	background:#691b1d;
 	padding:30px 70px;
 	overflow:hidden;
 }
-.thong-tin p
+.imformation p
 {
 	
 	font-size:25px;
@@ -149,7 +149,7 @@ font-weight: bold;
 	
 	
 }
-.thong-tin hr
+.imformation hr
 {
 	
 	float:left;
@@ -158,19 +158,19 @@ font-weight: bold;
 	color:#fff568;
 	background-color:#fff568;
 }
-.chi_tiet
+.details
 {
 	margin-top:50px;
 	width:100%;
 }
-.chi_tiet h5{
+.details h5{
 	font-size:20px;
 	padding:10px 15px;
 	background-color:#e1e1e1;
 	color:#691b1d;
 	margin:0;
 }
-.chi_tiet p{
+.details p{
 	
 	padding:10px 15px;
 	border-bottom:1px solid #691b1d;
@@ -178,20 +178,21 @@ font-weight: bold;
 	color:#691b1d;
 	font-size:18px;
 }
-.chi_nhanh
+.branch
 {
 	margin:50px auto;
 }
-.thong_tin_san_xuat
+.production
 {
 	padding:50px 50px;
 	overflow:hidden;
 }
-.thong_tin_san_xuat h1
+.production h1
 {
 	color:#691b1d;
+	text-align:center;
 }
-.thong_tin_san_xuat p
+.production p
 {
 	color:#691b1d;
 	font-size:18px;
@@ -199,35 +200,35 @@ font-weight: bold;
 	margin:0;
 	text-align:center;
 }
-.cam_nhan
+.comment
 {
 	padding:30px 150px;
 	background-color:#691b1d;
 }
-.cam_nhan h1 
+.comment h1 
 {
 	color:#fff568;
 }
-.cam_nhan p
+.comment p
 {
 	font-size:16px;
 	color:#fff;
 	text-align:center;
 }
 
-.cau_hoi
+.questions
 {
 	background-color:#ebebeb;
 	padding:50px 50px 100px 50px;
 	overflow:hidden;
 }
-.cau_hoi .ben_trai
+.questions .question
 {
 	border-radius:5%;;
 	background-color:#fff;
 	position:relative;
 	padding:60px 25px;
-	min-height:360px;
+	min-height:400px;
 	float:left;
 	width:47%;
 	
@@ -236,52 +237,50 @@ font-weight: bold;
 	
 	
 }
-.cau_hoi .ben_phai
+.questions .answer
 {
-	border-radius:10px;
+	border-radius:5%;
 	background-color:#fff;
 	position:relative;
 	padding:60px 25px;
-	min-height:360px;
+	min-height:400px;
 	float:right;
 	width:47%;
 	
-	
-	
-	
+
 	
 }
 
-.ben_trai h4
+.question h4
 {
 	color:#691b1d;
 	margin-top:50px;
 	margin-bottom:30px;
 }
-.ben_trai p
+.question p
 {
 	font-size:16px;
 	color:#959595;
 	margin-bottom:50px;
 }
-.ben_trai img{
+.question img{
 	position:absolute;
 	bottom:-15px;
 	right:70px;
 }
-.ben_phai h4
+.answer h4
 {
 	color:#691b1d;
 	margin-top:50px;
 	margin-bottom:30px;
 }
-.ben_phai p
+.answer p
 {
 	font-size:16px;
 	color:#959595;
 	margin-bottom:50px;
 }
-.ben_phai img{
+.answer img{
 	position:absolute;
 	bottom:-15px;
 	right:70px;
@@ -301,13 +300,13 @@ font-weight: bold;
 	float:right;
 	
 }
-.member .dac_diem
+.member .info_menber
 {
 	text-align:right;
 	margin-right:170px;
 	
 }
-.dac_diem p
+.info_menber p
 {
 	margin:0px;
 	color:#691b1d;
@@ -320,14 +319,14 @@ font-weight: bold;
 	padding:20px 40px;
 	background-color:#691b1d;
 }
-.footer .cot h3
+.footer .about h3
 {
 	background-color:#5c1315;
 	width:100%;
 	padding:10px;
 	margin-bottom:30px;
 }
-.footer .cot p{
+.footer .about p{
 	margin:0;
 	padding:0;
 }
@@ -347,7 +346,7 @@ font-weight: bold;
 	color:#691b1d;
 }
 
-.cot-1 img
+.about-1 img
 {
 	float:left;
 	width:100px;
@@ -355,7 +354,7 @@ font-weight: bold;
 	margin-bottom:30px;
 	
 }
-.cot form input[type="text"]
+.about form input[type="text"]
 {
 	width:100%;
 	height:40px;
@@ -364,7 +363,7 @@ font-weight: bold;
 	border:0.3px solid #CCC;
 	border-radius:5px;
 }
-.cot form textarea
+.about form textarea
 {
 	width:100%;
 	height:100px;
@@ -373,7 +372,7 @@ font-weight: bold;
 	border:0.3px solid #CCC;
 	border-radius:5px;
 }
-.cot form input[type="submit"]
+.about form input[type="submit"]
 {
 	background:none;
 	width:30%;
@@ -392,50 +391,50 @@ font-weight: bold;
 	color:#fff;
 }
 
-.logo_kien_thuc
+.logo_knowledge
 {
 	background-color:#691b1d;
 	padding:20px 0;
 }
-.menu_kien_thuc
+.menu_knowledge
 {
 	overflow:hidden;
 	background-color:#872123;
 }
-.menu_kien_thuc ul
+.menu_knowledge ul
 {
 	height:100%;
 	margin:0;
 }
-.menu_kien_thuc li
+.menu_knowledge li
 {
 	float:left;
 	display:block;
-	padding:20px;
+	padding:16px;
 	border-right:1px solid rgba(255, 255, 255, 0.14);
 }
-.menu_kien_thuc a{
+.menu_knowledge a{
 	color:#fff;
-	font-size:18px;
+	font-size:17px;
 	
 }
-.menu_kien_thuc li:hover 
+.menu_knowledge li:hover 
 {
 	background-color:#691b1d;
 }
-.menu_kien_thuc li:hover a
+.menu_knowledge li:hover a
 {
 	text-decoration:none;
 	color:#fff568;
 }
 
-.content_kien_thuc
+.content_knowledge
 {
 	overflow:hidden;
 	background-color:#691b1d;
 	padding:30px 20px;
 }
-.kien_thuc_trai
+.left_knowledge
 {
 	float:left;
 	background-color:#fff;
@@ -443,44 +442,45 @@ font-weight: bold;
 	
 	
 }
-.cot_trai
+.left_content
 {
 	padding:15px;
 }
-.cot_trai h2
+.left_content h2
 {
 	margin:30px 0;
 	font-size:27px;
 }
-.cot_trai p
+.left_content p
 {
 	margin-bottom:30px;
 	color:#999;
 }
-.cot_trai h4
+.left_content h4
 {
 	margin-bottom:30px;
 }
-.cot_trai hr
+.left_content hr
 {
 	height:1px;
 	border:1px solid #CCC;
 }
-.kien_thuc_phai
+.right_content
 {
+	overflow:hidden;
 	float:right;
 }
-.khung_tim_kiem
+.search_range
 {
 	background-color:#fff;
 	padding:15px 10px;
 	
 }
-.khung_tim_kiem form
+.search_range form
 {
 	position:relative;
 }
-.khung_tim_kiem form input[type="text"]
+.search_range form input[type="text"]
 {
 	
 	background-color:#f5f5f5;
@@ -490,7 +490,7 @@ font-weight: bold;
 	width:100%;
 	display:inline;
 }
-.khung_tim_kiem form input[type="submit"]
+.search_range form input[type="submit"]
 {
 	position:absolute;
 	top:0;
@@ -502,36 +502,36 @@ font-weight: bold;
 	border:none;
 	color:#fff;
 }
-.khung_bai_viet
+.article_range
 {
 	margin-top:50px;
 	overflow:hidden;
 	padding:15px 10px;
 	background-color:#fff;
 }
-.khung_bai_viet p
+.article_range p
 {
 	font-size:16px;
 	color:#999;
 }
-.khung_bai_viet p a
+.article_range p a
 {
 	color:#999;
 }
-.khung_bai_viet p a:hover
+.article_range p a:hover
 {
 	text-decoration:none;
 	color:#C03;
 }
-.footer_kien_thuc
+.footer_knowledge
 {
 	background-color:#872123;
 }
-.footer_kien_thuc hr
+.footer_knowledge hr
 {
 	opacity:0.4;
 }
-.footer_kien_thuc p
+.footer_knowledge p
 {
 	color:#fff;
 	padding:30px;
@@ -540,8 +540,422 @@ font-weight: bold;
 }
 /* ==========================================================================   Responsive CSS Landscape Tablet   ========================================================================== */
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+
+.search_range form input[type="submit"]
+{
+	
+	width:25%;
+	
+}
+	
+	
 	
 } /* ==========================================================================   Responsive CSS Portrait Tablet   ========================================================================== */
-@media only screen and (min-width: 768px) and (max-width: 959px) {} /* ==========================================================================   Responsive CSS Landscape Mobile   ========================================================================== */
-@media only screen and (min-width: 480px) and (max-width: 767px) {} /* ==========================================================================   Responsive CSS Portrait Mobile   ========================================================================== */
-@media only screen and (min-width: 100px) and (max-width: 479px) {}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+
+.search_range form input[type="text"]
+{
+	
+	background-color:#f5f5f5;
+	padding:5px;
+	border:1px solid #ccc;
+	font-size:14px;
+	width:100%;
+	display:inline;
+}
+.search_range form input[type="submit"]
+{
+	position:absolute;
+	top:0;
+	right:0;
+	width:25%;
+	background-color:#872123;
+	text-align:center;
+	padding:9px;
+	border:none;
+	color:#fff;
+}	
+
+	
+} /* ==========================================================================   Responsive CSS Landscape Mobile   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.production p
+{
+	
+	font-size:16px;
+	
+	
+}
+.production h1
+{
+	font-size:20px;
+}
+
+.questions
+{
+	background-color:#ebebeb;
+	padding:50px 50px 100px 50px;
+	overflow:hidden;
+}
+.questions .question
+{
+	border-radius:5%;;
+	background-color:#fff;
+	position:relative;
+	padding:20px 15px;
+	min-height:400px;
+	float:left;
+	width:47%;
+	
+	
+	
+	
+	
+}
+.questions .answer
+{
+	border-radius:5%;
+	background-color:#fff;
+	position:relative;
+	padding:20px 15px;
+	min-height:400px;
+	float:right;
+	width:47%;
+	
+
+	
+}
+
+.question h4
+{
+	color:#691b1d;
+	margin-top:50px;
+	margin-bottom:30px;
+	font-size:16px;
+}
+.question p
+{
+	font-size:14px;
+	color:#959595;
+	margin-bottom:50px;
+}
+.question img{
+	position:absolute;
+	bottom:-15px;
+	right:70px;
+}
+.answer h4
+{
+	font-size:16px;
+	color:#691b1d;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.answer p
+{
+	font-size:14px;
+	color:#959595;
+	margin-bottom:50px;
+}
+.answer img{
+	position:absolute;
+	bottom:-15px;
+	right:70px;
+}
+.member
+{
+	
+	position:absolute;
+	right:0px;
+	bottom:-80px;
+	
+	
+}
+.member img
+{
+	width:80px;
+	height:80px;
+	float:right;
+	
+}
+.member .info_menber
+{
+	text-align:right;
+	margin-right:170px;
+	
+}
+.info_menber p
+{
+	margin:0px;
+	color:#691b1d;
+	font-size:9px;
+}
+
+.menu_knowledge
+{
+	overflow:hidden;
+	background-color:#872123;
+}
+.menu_knowledge ul
+{
+	height:100%;
+	margin:0;
+}
+.menu_knowledge li
+{
+	float:left;
+	display:block;
+	padding:8px;
+	border-right:1px solid rgba(255, 255, 255, 0.14);
+}
+.menu_knowledge a{
+	color:#fff;
+	font-size:11px;
+	
+}
+.menu_knowledge li:hover 
+{
+	background-color:#691b1d;
+}
+.menu_knowledge li:hover a
+{
+	text-decoration:none;
+	color:#fff568;
+}
+
+
+.right_content
+{
+	margin-top:50px;
+	padding:0;
+	
+}
+.search_range
+{
+	background-color:#fff;
+	
+	
+}
+.search_range form
+{
+	position:relative;
+}
+
+.search_range form input[type="text"]
+{
+	
+	background-color:#f5f5f5;
+	padding:8px;
+	border:1px solid #ccc;
+	font-size:16px;
+	width:100%;
+	display:inline;
+}
+.search_range form input[type="submit"]
+{
+	position:absolute;
+	top:0;
+	right:0;
+	width:14%;
+	background-color:#872123;
+	text-align:center;
+	padding:13px;
+	border:none;
+	color:#fff;
+}
+} /* ==========================================================================   Responsive CSS Portrait Mobile   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+.production p
+{
+	
+	font-size:14px;
+	
+	
+}
+.production h1
+{
+	font-size:18px;
+}	
+
+.questions
+{
+	background-color:#ebebeb;
+	padding:50px 50px 100px 50px;
+	overflow:hidden;
+}
+.questions .question
+{
+	border-radius:5%;;
+	background-color:#fff;
+	position:relative;
+	padding:20px 15px;
+	min-height:500px;
+	float:left;
+	width:47%;
+	
+	
+	
+	
+	
+}
+.questions .answer
+{
+	border-radius:5%;
+	background-color:#fff;
+	position:relative;
+	padding:20px 15px;
+	min-height:500px;
+	float:right;
+	width:47%;
+	
+
+	
+}
+
+.question h4
+{
+	color:#691b1d;
+	margin-top:50px;
+	margin-bottom:30px;
+	font-size:14px;
+}
+.question p
+{
+	font-size:12px;
+	color:#959595;
+	margin-bottom:50px;
+}
+.question img{
+	position:absolute;
+	bottom:-15px;
+	right:70px;
+}
+.answer h4
+{
+	font-size:14px;
+	color:#691b1d;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.answer p
+{
+	font-size:12px;
+	color:#959595;
+	margin-bottom:50px;
+}
+.answer img{
+	position:absolute;
+	bottom:-15px;
+	right:70px;
+}
+.member
+{
+	
+	position:absolute;
+	right:0px;
+	bottom:-80px;
+	
+	
+}
+.member img
+{
+	width:80px;
+	height:80px;
+	float:right;
+	
+}
+.member .info_menber
+{
+	text-align:right;
+	margin-right:170px;
+	
+}
+.info_menber p
+{
+	margin:0px;
+	color:#691b1d;
+	font-size:9px;
+	opacity:0;
+}
+
+.menu_knowledge
+{
+	overflow:hidden;
+	background-color:#872123;
+}
+.menu_knowledge ul
+{
+	height:100%;
+	margin:0;
+}
+.menu_knowledge li
+{
+	width:50%;
+	height:70px;
+	
+	float:left;
+	display:block;
+	padding:15px;
+	border:1px solid rgba(255, 255, 255, 0.14);
+}
+.menu_knowledge a{
+	color:#fff;
+	font-size:16px;
+	
+}
+.menu_knowledge li:hover 
+{
+	background-color:#691b1d;
+}
+.menu_knowledge li:hover a
+{
+	text-decoration:none;
+	color:#fff568;
+}
+
+
+.right_content
+{
+	margin-top:50px;
+	padding:0;
+	
+}
+.search_range
+{
+	background-color:#fff;
+	
+	
+}
+.search_range form
+{
+	position:relative;
+}
+
+.search_range form input[type="text"]
+{
+	
+	background-color:#f5f5f5;
+	padding:5px;
+	border:1px solid #ccc;
+	font-size:14px;
+	width:100%;
+	display:inline;
+}
+.search_range form input[type="submit"]
+{
+	position:absolute;
+	top:0;
+	right:0;
+	width:25%;
+	background-color:#872123;
+	text-align:center;
+	padding:9px;
+	border:none;
+	color:#fff;
+}
+}
